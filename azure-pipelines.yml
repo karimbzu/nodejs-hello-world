@@ -28,7 +28,7 @@ steps:
 # #     targetFolder: '$(Build.ArtifactStagingDirectory)'
 
 # - task: S3Upload@1
-#   inputs:
+#   inputs:ws
 #     awsCredentials: 'AWS Pipeline'
 #     regionName: 'centralcanada'
 #     bucketName: 'rvezy-static-assets-us-east-2'
